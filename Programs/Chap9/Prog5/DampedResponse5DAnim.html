@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation 5</title>
+    <link rel="stylesheet" type="text/css" href="../../../libs/css.css">
+    <style>
+        i {
+            border: solid black;
+            border-width: 0 3px 3px 0;
+            display: inline-block;
+            padding: 3px;
+        }
+
+        .ar {
+            transform: rotate(-45deg);
+            -webkit-transform: translate(-4px, 0px) rotate(-45deg);
+        }
+
+        .al {
+            transform: rotate(135deg);
+            -webkit-transform: rotate(135deg);
+        }
+    </style>
+    <script src="../../../libs/p5.js"></script>
+    <script src="../../../libs/animatable.js"></script>
+    <script src="../../../libs/plot.js"></script>
+    <script src="../../../libs/matrix.js"></script>
+    <script src="DampedResponse5DAnim.js"></script>
+</head>
+<body>
+<br>
+<br>
+<br>
+<h3>Forced Response.</h3>
+The graph shows the magnitude of the forced response of a damped five degree of freedom system.
+<br>
+The animation is at the frequency shown in blue.
+<div id="canvas"></div>
+</body>
+</html>
