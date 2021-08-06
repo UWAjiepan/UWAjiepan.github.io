@@ -188,7 +188,7 @@ function unlockSliders(s) {
 
 function equationFunc() {
     let answer = 1.8 * (aMass * cos(fMass * t) + (((vMass / 6) / fMass) * sin(fMass * t)));
-    if (vMass < 0 && playing && focused) {
+   /* if (vMass < 0 && playing && focused) {
         vMass += (5 / frameRate());
         vSlider.value(vMass);
         inputs[2].value(Math.round(vMass));
@@ -197,6 +197,6 @@ function equationFunc() {
         vMass -= (5 / frameRate());
         vSlider.value(vMass);
         inputs[2].value(Math.round(vMass));
-    }
+    } */
     return answer;
 }
